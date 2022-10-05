@@ -1,0 +1,235 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+header {
+	width:100%; 
+	overflow:hidden; 
+	background:#252932;
+	margin-bottom:20px;
+    height: 100px;
+}
+
+.container.leftHead {
+	width:90%; 
+	max-width:1500px; 
+	margin:auto; 
+	overflow:hidden; 
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:100px;
+	float:left;
+  font-style: italic;
+}
+header .logo a{
+  text-decoration:none;
+  color:#fff
+}
+
+img {
+  height: 100px;
+  align-items: center;
+}
+header nav {
+	float:right;
+	line-height:100px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
+
+.active {
+  display:inline-block;
+	color:#fff;
+  background-color: #f56f3a;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+    border-radius: 50px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("../images/SL-100420-36140-29.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  .centerPage {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .centerPage h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #f56f3a;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .centerPage p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .centerPage a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .centerPage a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .centerPage .botons {
+    width: 100%;
+    background: #f56f3a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  .tablaMascotas {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: sans-serif; 
+    min-width: 500px; 
+    box-shadow: 0 0 10px rgba(184, 183, 183, 0.171);
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+  }
+
+  
+  .tablaMascotas thead th {  
+    text-align: left; 
+    color: #fff;
+    background-color: #f56f3a;
+    font-weight: bold;
+    text-align: center;
+  }
+  .tablaMascotas th,  
+  .tablaMascotas td {
+    padding: 12px 15px;
+  }
+  
+  .tablaMascotas tbody tr {
+    background-color: white;
+    color: #212529;
+    text-align: center;
+    border: #f56f3a;
+  }
+  .tablaMascotas tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+
+  .tablaMascotas tbody tr:hover {
+    background-color: #f7c5b1;
+    color: white;
+  }
+
+  .max {
+    width: 1000px;
+    align-items: center;
+  }
+  h5{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+  .textSearch {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 10%;
+  }
+  .search {
+    width: 40%;
+    height: 40px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-bottom: 16px;
+    border: 2px solid #f56f3a;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+  .botonConsulta{
+    width: 15%;
+    margin-left: 5%;
+    background: #f56f3a;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    cursor:pointer;
+    position: relative;
+  }
+
+  .botonConsulta:hover{
+    background-color: #f36127;
+  }
+
+  .centerPage h2{
+    color: #f36127;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+  }

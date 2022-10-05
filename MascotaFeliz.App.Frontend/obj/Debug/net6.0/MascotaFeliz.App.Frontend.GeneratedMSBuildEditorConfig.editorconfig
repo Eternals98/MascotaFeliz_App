@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Proyectos\MascotaFeliz.App\MascotaFeliz.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Duenos/DetallesDuenos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHVlbm9zXERldGFsbGVzRHVlbm9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Duenos/EditarDuenos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHVlbm9zXEVkaXRhckR1ZW5vcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Duenos/ListaDuenos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHVlbm9zXExpc3RhRHVlbm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -27,12 +35,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Mascotas/DetallesMascotas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YXNcRGV0YWxsZXNNYXNjb3Rhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Mascotas/EditarMascotas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YXNcRWRpdGFyTWFzY290YXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Mascotas/ListaMascotas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YXNcTGlzdGFNYXNjb3Rhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Veterinarios/DetallesVeterinarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaW9zXERldGFsbGVzVmV0ZXJpbmFyaW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Veterinarios/EditarVeterinarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaW9zXEVkaXRhclZldGVyaW5hcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Veterinarios/ListaVeterinarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaW9zXExpc3RhVmV0ZXJpbmFyaW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/_ViewImports.cshtml]

@@ -10,7 +10,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-     <NoWarn>CS8618</NoWarn>
+    <NoWarn>CS8618,CS0169</NoWarn>
   </PropertyGroup>
 
 </Project>
