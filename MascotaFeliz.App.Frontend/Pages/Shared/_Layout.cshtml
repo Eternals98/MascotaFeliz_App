@@ -3,38 +3,37 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MascotaFeliz.App.Frontend</title>
+    <title> MascotaFeliz</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MascotaFeliz.App.Frontend.styles.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/images/3500_2_13.png"/>
+    <link rel="stylesheet" href="./_Layout.cshtml.css"/>
+    <link rel="stylesheet" href="~/css/tablas.css">
+    <link rel="stylesheet" href="~/css/formularios.css">
+    <style type="text/css">
+         body {
+            background-image: url('/images/SL-100420-36140-29.jpg');
+            margin: 0;
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">MascotaFeliz.App.Frontend</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Mascotas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Duenos/ListaDuenos">Dueños</a>
-                        </li>          
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Veterinarios</a>
-                        </li>              
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div class="leftHead">
+            <a asp-area="" asp-page="/Index">
+                <img src="~/images/3500_2_13.png" alt="">
+                <div class="logo">Mi Mascota Feliz</div>
+            </a>
+            <nav>
+                        <a asp-area="" asp-page="/Index">Inicio</a>
+                        <a asp-area="" asp-page="/Mascotas/ListaMascotas">Mascotas</a>
+                        <a asp-area="" asp-page="/Duenos/ListaDuenos">Dueños</a>
+                        <a asp-area="" asp-page="/Veterinarios/ListaVeterinarios">Veterinarios</a>
+            </nav>
+        </div> 
     </header>
     <div class="container">
         <main role="main" class="pb-3">

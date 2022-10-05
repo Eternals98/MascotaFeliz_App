@@ -41,9 +41,15 @@ button.accept-policy[b-67m0enjp2w] {
 }
 
 .footer[b-67m0enjp2w] {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+body[b-67m0enjp2w]{
+  background-image: url("~/images/SL-100420-36140-29.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
