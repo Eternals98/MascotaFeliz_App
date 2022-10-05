@@ -2,26 +2,63 @@
 @model MascotaFeliz.App.Frontend.Pages.DetallesDuenosModel
 @{
 }
-<section clas="centerPage">
-<h1>Detalles del Dueño</h1>
+<section class="centerPage max">
+    <h1>Detalles del Propietario No. @Model.dueno.Id</h1>
+    <table class="tabla">
+        <tbody>
+            <tr class="trpf">
+                <td>
+                    <div class="title">Id</div>
+                    <div class="data">@Model.dueno.Id</div>
+                </td>
+                <td>
+                </td>
+ 
+            </tr>
+            <tr class="trpf">
+               <td>
+                    <div class="title">Nombres:</div>
+                    <div class="data">@Model.dueno.Nombres</div>
+                </td>
+                    <td>
+                    <div class="title">Apellidos:</div>
+                    <div class="data">@Model.dueno.Apellidos</div>
+                </td>
+            </tr>
+            <tr class="trpf"> 
+               <td>
+                    <div class="title">Telefono:</div>
+                    <div class="data">@Model.dueno.Telefono</div>
+                </td>
+                <td>
+                    <div class="title">Direccion:</div>
+                    <div class="data">@Model.dueno.Direccion</div>
+                </td>
+            </tr>
+            <tr class="trpf">
+                <td>
+                    <div class="title">Correo:</div>
+                    <div class="data">@Model.dueno.Correo</div>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="tabla-dos">
+        <tbody>
+            <tr>
+                <td>
+                    <a asp-page="../Mascotas/DetallesMascotas" asp-route-mascotaId=""></a>
+                </td>
+                <td>
+                    <a asp-page="./ListaDuenos" class="btn btn-primary table-btn centrado">Propietarios</a>
+                </td>
+                <td>
 
-<div>
-    Id: @Model.dueno.Id
-</div>
-<div>
-    Nombre: @Model.dueno.Nombres
-</div>
-<div>
-    Apellido: @Model.dueno.Apellidos
-</div>
-<div>
-    Direccion: @Model.dueno.Direccion
-</div>
-<div>
-    Telefono: @Model.dueno.Telefono
-</div>
-<div>
-    Correo: @Model.dueno.Correo
-</div>
-<a asp-page="./ListaDuenos" class="btn-default">Lista de Dueños </a>
+                </td>
+            </tr>
+        </tbody>
+   
+    </table>
 </section>

@@ -11,7 +11,7 @@ namespace MascotaFeliz.App.Persistencia
         public DbSet<VisitaPyP> VisitasPyP {get;set;}
         public DbSet<Historia> Historias {get;set;}
         public DbSet<Mascota> Mascotas {get;set;}
-
+        public DbSet<Usuario> Usuarios {get;set;}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

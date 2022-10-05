@@ -13,6 +13,7 @@ namespace MascotaFeliz.App.Consola
         private static IRepositorioMascota _repoMascota = new RepositorioMascota(new Persistencia.AppContext());
         private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
         private static IRepositorioVisitaPyP _repoVisitaPyP = new RepositorioVisitaPyP(new Persistencia.AppContext());
+        private static IRepositorioUsuario _repoUsuario = new RepositorioUsuario(new Persistencia.AppContext());
 
         static void Main(string[] args)
         {
@@ -74,10 +75,10 @@ namespace MascotaFeliz.App.Consola
         {
             var mascota = new Mascota
             {
-                Nombre = "Ragnar",
-                Color = "Sable",
-                Especie = "Canino",
-                Raza = "Husky"
+                Nombre = "Laila",
+                Color = "Blanco",
+                Especie = "Felino",
+                Raza = "Normal"
             };
             _repoMascota.AddMascota(mascota);
 
@@ -87,7 +88,7 @@ namespace MascotaFeliz.App.Consola
         {
             var historia = new Historia
             {
-                FechaInicial = new DateTime(2020, 01, 01)
+                FechaInicial = new DateTime(2021, 08, 15)
                 
 
             };
@@ -193,7 +194,7 @@ namespace MascotaFeliz.App.Consola
 
         private static void AsignarHistoria()
         {
-            var historia = _repoMascota.AsignarHistoria(1,1);
+            var historia = _repoMascota.AsignarHistoria(5,5);
         }
     }
 }

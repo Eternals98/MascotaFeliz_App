@@ -12,8 +12,21 @@
     overflow: hidden;
     margin-bottom: 20px;
   }
+  .tabla-dos {
+    align-items: center;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: sans-serif; 
+    min-width: 800px; 
+    width: auto;
+    margin: auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
 
-  
+
   .tabla thead th {  
     text-align: left; 
     color: #fff;

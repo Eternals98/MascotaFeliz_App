@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EskbIDou/oGe6JRQU54qCXo2X1+w0mjfExJhqI8/GNM=",
+  "Hash": "KMesb1P9m0+PwSwfZwFerLQrp51T9t2vhNMLgw6yhRA=",
   "Source": "MascotaFeliz.App.Frontend",
   "BasePath": "_content/MascotaFeliz.App.Frontend",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\formularios.css"
+    },
+    {
+      "Identity": "C:\\Proyectos\\MascotaFeliz.App\\MascotaFeliz.App.Frontend\\wwwroot\\css\\perfil.css",
+      "SourceId": "MascotaFeliz.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\MascotaFeliz.App\\MascotaFeliz.App.Frontend\\wwwroot\\",
+      "BasePath": "_content/MascotaFeliz.App.Frontend",
+      "RelativePath": "css/perfil.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\perfil.css"
     },
     {
       "Identity": "C:\\Proyectos\\MascotaFeliz.App\\MascotaFeliz.App.Frontend\\wwwroot\\css\\site.css",

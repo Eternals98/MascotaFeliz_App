@@ -55,6 +55,19 @@ namespace MascotaFeliz.App.Persistencia
             }
             return mascotas;
         }
+        public IEnumerable<Mascota> GetMascotasPorIdDueno(string filtro)
+        {
+            var mascotas = GetAllMascotas(); // Obtiene todos los saludos
+            if (mascotas != null)  //Si se tienen saludos
+            {
+                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
+                {
+                    mascotas = mascotas.Where(s => s.Dueno.Contains(filtro));
+                    
+                }
+            }
+            return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia").FirstOrDefault(d => d.Id == filtro);
+        }
 
         public Mascota GetMascota(int idMascota)
         {
