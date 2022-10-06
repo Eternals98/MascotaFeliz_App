@@ -2,26 +2,61 @@
 @model MascotaFeliz.App.Frontend.Pages.DetallesVeterinariosModel
 @{
 }
-<section class="centerPage">
-<h1>Detalles del Veterinario</h1>
-
-<div>
-    Id: @Model.veterinario.Id
-</div>
-<div>
-    Nombre: @Model.veterinario.Nombres
-</div>
-<div>
-    Apellido: @Model.veterinario.Apellidos
-</div>
-<div>
-    Direccion: @Model.veterinario.Direccion
-</div>
-<div>
-    Telefono: @Model.veterinario.Telefono
-</div>
-<div>
-    Correo: @Model.veterinario.TarjetaProfesional
-</div>
-<a asp-page="./Listaveterinarios" class="btn-default">Lista de Veterinarios </a>
+<section class="centerPage max">
+    <h1>Detalles del Propietario No. @Model.veterinario.Id</h1>
+    <table class="tabla">
+        <tbody>
+            <tr class="trpf">
+                <td>
+                    <div class="title">Id</div>
+                    <div class="data">@Model.veterinario.Id</div>
+                </td>
+                <td>
+                </td>
+ 
+            </tr>
+            <tr class="trpf">
+               <td>
+                    <div class="title">Nombres:</div>
+                    <div class="data">@Model.veterinario.Nombres</div>
+                </td>
+                    <td>
+                    <div class="title">Apellidos:</div>
+                    <div class="data">@Model.veterinario.Apellidos</div>
+                </td>
+            </tr>
+            <tr class="trpf"> 
+               <td>
+                    <div class="title">Telefono:</div>
+                    <div class="data">@Model.veterinario.Telefono</div>
+                </td>
+                <td>
+                    <div class="title">Direccion:</div>
+                    <div class="data">@Model.veterinario.Direccion</div>
+                </td>
+            </tr>
+            <tr class="trpf">
+                <td>
+                    <div class="title">Correo:</div>
+                    <div class="data">@Model.veterinario.TarjetaProfesional</div>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="tabla-dos">
+        <tbody>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <a asp-page="./ListaVeterinarios" class="btn btn-primary table-btn centrado">Veterinarios</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </tbody>
+   
+    </table>
 </section>

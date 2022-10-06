@@ -47,6 +47,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YXNcTGlzdGFNYXNjb3Rhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Mascotas/MascotasporDueno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YXNcTWFzY290YXNwb3JEdWVuby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Mascotas/MascotasporVeterinario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YXNcTWFzY290YXNwb3JWZXRlcmluYXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Proyectos/MascotaFeliz.App/MascotaFeliz.App.Frontend/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

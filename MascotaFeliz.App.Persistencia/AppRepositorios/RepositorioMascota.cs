@@ -43,32 +43,30 @@ namespace MascotaFeliz.App.Persistencia
             return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia");
         }
 
-        public IEnumerable<Mascota> GetMascotasPorFiltro(string filtro)
+        public IEnumerable<Mascota> GetMascotasPorFiltroDueno(int filtro)
         {
             var mascotas = GetAllMascotas(); // Obtiene todos los saludos
             if (mascotas != null)  //Si se tienen saludos
             {
-                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
+                if (filtro > 0) // Si el filtro tiene algun valor
                 {
-                    mascotas = mascotas.Where(s => s.Nombre.Contains(filtro));
+                    mascotas = mascotas.Where(d => d.Dueno.Id == filtro);
                 }
             }
             return mascotas;
         }
-        public IEnumerable<Mascota> GetMascotasPorIdDueno(string filtro)
+                public IEnumerable<Mascota> GetMascotasPorFiltroVeterinario(int filtro)
         {
             var mascotas = GetAllMascotas(); // Obtiene todos los saludos
             if (mascotas != null)  //Si se tienen saludos
             {
-                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
+                if (filtro > 0) // Si el filtro tiene algun valor
                 {
-                    mascotas = mascotas.Where(s => s.Dueno.Contains(filtro));
-                    
+                    mascotas = mascotas.Where(d => d.Veterinario.Id == filtro);
                 }
             }
-            return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia").FirstOrDefault(d => d.Id == filtro);
+            return mascotas;
         }
-
         public Mascota GetMascota(int idMascota)
         {
             return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia").FirstOrDefault(d => d.Id == idMascota);

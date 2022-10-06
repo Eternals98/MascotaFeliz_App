@@ -2,28 +2,63 @@
 @model MascotaFeliz.App.Frontend.Pages.DetallesMascotasModel
 @{
 }
-<section class="centerPage">
-    <h1>Detalles de la Mascota</h1>
-    <div>
-        Id: @Model.mascota.Id
-    </div>
-    <div>
-        Nombre: @Model.mascota.Nombre
-    </div>
-    <div>
-        Color: @Model.mascota.Color
-    </div>
-    <div>
-        Raza: @Model.mascota.Raza
-    </div>
-    <div>
-        Especie: @Model.mascota.Especie
-    </div>
-    <div>
-        Nombre del dueño: @Model.mascota.Dueno.Nombres
-    </div>
-    <div>
-        Nombre del veterinario: @Model.mascota.Veterinario.Nombres
-    </div>
-    <a asp-page="./ListaMascotas" class="btn-default">Lista de Mascotas </a>
+<section class="centerPage max">
+    <h1>Detalles de la Mascota No. @Model.mascota.Id</h1>
+    <table class="tabla">
+        <tbody>
+            <tr class="trpf">
+                <td>
+                    <div class="title">Id</div>
+                    <div class="data">@Model.mascota.Id</div>
+                </td>
+                <td>
+                </td>
+ 
+            </tr>
+            <tr class="trpf">
+               <td>
+                    <div class="title">Nombres:</div>
+                    <div class="data">@Model.mascota.Nombre</div>
+                </td>
+                    <td>
+                    <div class="title">Raza:</div>
+                    <div class="data">@Model.mascota.Raza</div>
+                </td>
+            </tr>
+            <tr class="trpf"> 
+               <td>
+                    <div class="title">Especie:</div>
+                    <div class="data">@Model.mascota.Especie</div>
+                </td>
+                <td>
+                    <div class="title">Veterinario Asignado:</div>
+                    <div class="data">@Model.mascota.Veterinario.Nombres @Model.mascota.Veterinario.Apellidos</div>
+                </td>
+            </tr>
+            <tr class="trpf">
+                <td>
+                    <div class="title">Propietario:</div>
+                    <div class="data">@Model.mascota.Dueno.Nombres @Model.mascota.Dueno.Apellidos</div>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="tabla-dos">
+        <tbody>
+            <tr>
+                <td>
+                    <a asp-page="../Duenos/DetallesDuenos" asp-route-duenoId="@Model.mascota.Dueno.Id" class="btn btn-primary table-btn centrado">Ver propietario</a>
+                </td>
+                <td>
+                    <a asp-page="./ListaMascotas" class="btn btn-primary table-btn centrado">Propietarios</a>
+                </td>
+                <td>
+
+                </td>
+            </tr>
+        </tbody>
+   
+    </table>
 </section>
